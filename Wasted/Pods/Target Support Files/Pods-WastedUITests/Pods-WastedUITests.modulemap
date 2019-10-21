@@ -1,0 +1,6 @@
+framework module Pods_WastedUITests {
+  umbrella header "Pods-WastedUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

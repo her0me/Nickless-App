@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B925BACF00A7B09B4DA3E7 /* Pods_WastedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A998332B005002D5776D3175 /* Pods_WastedTests.framework */; };
+		C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7D2327DDFE0057983C /* AppDelegate.swift */; };
+		C32CBE802327DDFE0057983C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7F2327DDFE0057983C /* ViewController.swift */; };
+		C32CBE832327DDFE0057983C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE812327DDFE0057983C /* Main.storyboard */; };
+		C32CBE852327DDFF0057983C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE842327DDFF0057983C /* Assets.xcassets */; };
+		C32CBE882327DDFF0057983C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */; };
+		C32CBE932327DE000057983C /* WastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE922327DE000057983C /* WastedTests.swift */; };
+		C32CBE9E2327DE000057983C /* WastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE9D2327DE000057983C /* WastedUITests.swift */; };
+		F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32CBE8F2327DE000057983C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32CBE722327DDFE0057983C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32CBE792327DDFE0057983C;
+			remoteInfo = Wasted;
+		};
+		C32CBE9A2327DE000057983C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32CBE722327DDFE0057983C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32CBE792327DDFE0057983C;
+			remoteInfo = Wasted;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5C4F99079E92E9BC8882D3 /* Pods-WastedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedUITests.debug.xcconfig"; path = "Target Support Files/Pods-WastedUITests/Pods-WastedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0FA648E23435D0532A551B /* Pods-WastedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedUITests.release.xcconfig"; path = "Target Support Files/Pods-WastedUITests/Pods-WastedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3613FF2624EF7FD8BF4C2308 /* Pods_Wasted.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wasted.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C9C533112F687545C13DDF /* Pods-Wasted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wasted.debug.xcconfig"; path = "Target Support Files/Pods-Wasted/Pods-Wasted.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54572670B3E09352B978DC72 /* Pods-Wasted.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wasted.release.xcconfig"; path = "Target Support Files/Pods-Wasted/Pods-Wasted.release.xcconfig"; sourceTree = "<group>"; };
+		A998332B005002D5776D3175 /* Pods_WastedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE21EE9F55764FABAE7F9135 /* Pods-WastedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.debug.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C32CBE7A2327DDFE0057983C /* Wasted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32CBE7D2327DDFE0057983C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32CBE7F2327DDFE0057983C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32CBE822327DDFE0057983C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32CBE842327DDFF0057983C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32CBE872327DDFF0057983C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32CBE892327DE000057983C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32CBE8E2327DE000057983C /* WastedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32CBE922327DE000057983C /* WastedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastedTests.swift; sourceTree = "<group>"; };
+		C32CBE942327DE000057983C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32CBE992327DE000057983C /* WastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32CBE9D2327DE000057983C /* WastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastedUITests.swift; sourceTree = "<group>"; };
+		C32CBE9F2327DE000057983C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.release.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32CBE772327DDFE0057983C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE8B2327DE000057983C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B925BACF00A7B09B4DA3E7 /* Pods_WastedTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE962327DE000057983C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2DCEAED66B28EDCD7A79FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42C9C533112F687545C13DDF /* Pods-Wasted.debug.xcconfig */,
+				54572670B3E09352B978DC72 /* Pods-Wasted.release.xcconfig */,
+				BE21EE9F55764FABAE7F9135 /* Pods-WastedTests.debug.xcconfig */,
+				D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */,
+				1C5C4F99079E92E9BC8882D3 /* Pods-WastedUITests.debug.xcconfig */,
+				2F0FA648E23435D0532A551B /* Pods-WastedUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA5D67A8F630C5A1C0C12631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3613FF2624EF7FD8BF4C2308 /* Pods_Wasted.framework */,
+				A998332B005002D5776D3175 /* Pods_WastedTests.framework */,
+				4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32CBE712327DDFE0057983C = {
+			isa = PBXGroup;
+			children = (
+				C32CBE7C2327DDFE0057983C /* Wasted */,
+				C32CBE912327DE000057983C /* WastedTests */,
+				C32CBE9C2327DE000057983C /* WastedUITests */,
+				C32CBE7B2327DDFE0057983C /* Products */,
+				0C2DCEAED66B28EDCD7A79FF /* Pods */,
+				AA5D67A8F630C5A1C0C12631 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32CBE7B2327DDFE0057983C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBE7A2327DDFE0057983C /* Wasted.app */,
+				C32CBE8E2327DE000057983C /* WastedTests.xctest */,
+				C32CBE992327DE000057983C /* WastedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32CBE7C2327DDFE0057983C /* Wasted */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBE7D2327DDFE0057983C /* AppDelegate.swift */,
+				C32CBE7F2327DDFE0057983C /* ViewController.swift */,
+				C32CBE812327DDFE0057983C /* Main.storyboard */,
+				C32CBE842327DDFF0057983C /* Assets.xcassets */,
+				C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */,
+				C32CBE892327DE000057983C /* Info.plist */,
+			);
+			path = Wasted;
+			sourceTree = "<group>";
+		};
+		C32CBE912327DE000057983C /* WastedTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBE922327DE000057983C /* WastedTests.swift */,
+				C32CBE942327DE000057983C /* Info.plist */,
+			);
+			path = WastedTests;
+			sourceTree = "<group>";
+		};
+		C32CBE9C2327DE000057983C /* WastedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBE9D2327DE000057983C /* WastedUITests.swift */,
+				C32CBE9F2327DE000057983C /* Info.plist */,
+			);
+			path = WastedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32CBE792327DDFE0057983C /* Wasted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32CBEA22327DE000057983C /* Build configuration list for PBXNativeTarget "Wasted" */;
+			buildPhases = (
+				FA144B97F93093A9B02D851D /* [CP] Check Pods Manifest.lock */,
+				C32CBE762327DDFE0057983C /* Sources */,
+				C32CBE772327DDFE0057983C /* Frameworks */,
+				C32CBE782327DDFE0057983C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wasted;
+			productName = Wasted;
+			productReference = C32CBE7A2327DDFE0057983C /* Wasted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32CBE8D2327DE000057983C /* WastedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32CBEA52327DE000057983C /* Build configuration list for PBXNativeTarget "WastedTests" */;
+			buildPhases = (
+				91CCA0C420E45719DFFBC2B9 /* [CP] Check Pods Manifest.lock */,
+				C32CBE8A2327DE000057983C /* Sources */,
+				C32CBE8B2327DE000057983C /* Frameworks */,
+				C32CBE8C2327DE000057983C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32CBE902327DE000057983C /* PBXTargetDependency */,
+			);
+			name = WastedTests;
+			productName = WastedTests;
+			productReference = C32CBE8E2327DE000057983C /* WastedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32CBE982327DE000057983C /* WastedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32CBEA82327DE000057983C /* Build configuration list for PBXNativeTarget "WastedUITests" */;
+			buildPhases = (
+				1CD52AAD641C1C495D4B9F2D /* [CP] Check Pods Manifest.lock */,
+				C32CBE952327DE000057983C /* Sources */,
+				C32CBE962327DE000057983C /* Frameworks */,
+				C32CBE972327DE000057983C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32CBE9B2327DE000057983C /* PBXTargetDependency */,
+			);
+			name = WastedUITests;
+			productName = WastedUITests;
+			productReference = C32CBE992327DE000057983C /* WastedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32CBE722327DDFE0057983C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Drew Scheffer";
+				TargetAttributes = {
+					C32CBE792327DDFE0057983C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C32CBE8D2327DE000057983C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C32CBE792327DDFE0057983C;
+					};
+					C32CBE982327DE000057983C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C32CBE792327DDFE0057983C;
+					};
+				};
+			};
+			buildConfigurationList = C32CBE752327DDFE0057983C /* Build configuration list for PBXProject "Wasted" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32CBE712327DDFE0057983C;
+			productRefGroup = C32CBE7B2327DDFE0057983C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32CBE792327DDFE0057983C /* Wasted */,
+				C32CBE8D2327DE000057983C /* WastedTests */,
+				C32CBE982327DE000057983C /* WastedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32CBE782327DDFE0057983C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32CBE882327DDFF0057983C /* LaunchScreen.storyboard in Resources */,
+				C32CBE852327DDFF0057983C /* Assets.xcassets in Resources */,
+				C32CBE832327DDFE0057983C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE8C2327DE000057983C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE972327DE000057983C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD52AAD641C1C495D4B9F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WastedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CCA0C420E45719DFFBC2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WastedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA144B97F93093A9B02D851D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wasted-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32CBE762327DDFE0057983C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
+				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE8A2327DE000057983C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32CBE932327DE000057983C /* WastedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32CBE952327DE000057983C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32CBE9E2327DE000057983C /* WastedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32CBE902327DE000057983C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32CBE792327DDFE0057983C /* Wasted */;
+			targetProxy = C32CBE8F2327DE000057983C /* PBXContainerItemProxy */;
+		};
+		C32CBE9B2327DE000057983C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32CBE792327DDFE0057983C /* Wasted */;
+			targetProxy = C32CBE9A2327DE000057983C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32CBE812327DDFE0057983C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32CBE822327DDFE0057983C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32CBE872327DDFF0057983C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32CBEA02327DE000057983C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32CBEA12327DE000057983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32CBEA32327DE000057983C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C9C533112F687545C13DDF /* Pods-Wasted.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wasted/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.Wasted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32CBEA42327DE000057983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54572670B3E09352B978DC72 /* Pods-Wasted.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wasted/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.Wasted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C32CBEA62327DE000057983C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE21EE9F55764FABAE7F9135 /* Pods-WastedTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.WastedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasted.app/Wasted";
+			};
+			name = Debug;
+		};
+		C32CBEA72327DE000057983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.WastedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasted.app/Wasted";
+			};
+			name = Release;
+		};
+		C32CBEA92327DE000057983C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5C4F99079E92E9BC8882D3 /* Pods-WastedUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.WastedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wasted;
+			};
+			name = Debug;
+		};
+		C32CBEAA2327DE000057983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0FA648E23435D0532A551B /* Pods-WastedUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WastedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.WastedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wasted;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32CBE752327DDFE0057983C /* Build configuration list for PBXProject "Wasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32CBEA02327DE000057983C /* Debug */,
+				C32CBEA12327DE000057983C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32CBEA22327DE000057983C /* Build configuration list for PBXNativeTarget "Wasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32CBEA32327DE000057983C /* Debug */,
+				C32CBEA42327DE000057983C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32CBEA52327DE000057983C /* Build configuration list for PBXNativeTarget "WastedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32CBEA62327DE000057983C /* Debug */,
+				C32CBEA72327DE000057983C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32CBEA82327DE000057983C /* Build configuration list for PBXNativeTarget "WastedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32CBEA92327DE000057983C /* Debug */,
+				C32CBEAA2327DE000057983C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32CBE722327DDFE0057983C /* Project object */;
+}
