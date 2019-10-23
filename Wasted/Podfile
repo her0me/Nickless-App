@@ -4,8 +4,8 @@
 target 'Wasted' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod "PinterestSDK", :git => "git@github.com:pinterest/ios-pdk.git"
-  # Pods for Wasted
+  
+  pod 'TextFieldEffects'
 
   target 'WastedTests' do
     inherit! :search_paths
@@ -13,7 +13,7 @@ target 'Wasted' do
   end
 
   target 'WastedUITests' do
-    inherit! :search_paths/Users/drewscheffer/Desktop/Wasted/Podfile
+    inherit! :search_paths
     # Pods for testing
   end
 

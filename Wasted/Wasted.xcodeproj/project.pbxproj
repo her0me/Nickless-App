@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF1B1B42EDE824EDA80B4A9 /* Pods_Wasted.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613FF2624EF7FD8BF4C2308 /* Pods_Wasted.framework */; };
 		71B925BACF00A7B09B4DA3E7 /* Pods_WastedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A998332B005002D5776D3175 /* Pods_WastedTests.framework */; };
 		C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7D2327DDFE0057983C /* AppDelegate.swift */; };
 		C32CBE802327DDFE0057983C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7F2327DDFE0057983C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		C32CBE882327DDFF0057983C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */; };
 		C32CBE932327DE000057983C /* WastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE922327DE000057983C /* WastedTests.swift */; };
 		C32CBE9E2327DE000057983C /* WastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE9D2327DE000057983C /* WastedUITests.swift */; };
+		C38681FD23600B1500D58105 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38681FC23600B1500D58105 /* quizViewController.swift */; };
 		F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,7 @@
 		C32CBE992327DE000057983C /* WastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32CBE9D2327DE000057983C /* WastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastedUITests.swift; sourceTree = "<group>"; };
 		C32CBE9F2327DE000057983C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38681FC23600B1500D58105 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
 		D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.release.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF1B1B42EDE824EDA80B4A9 /* Pods_Wasted.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +141,7 @@
 			children = (
 				C32CBE7D2327DDFE0057983C /* AppDelegate.swift */,
 				C32CBE7F2327DDFE0057983C /* ViewController.swift */,
+				C38681FC23600B1500D58105 /* quizViewController.swift */,
 				C32CBE812327DDFE0057983C /* Main.storyboard */,
 				C32CBE842327DDFF0057983C /* Assets.xcassets */,
 				C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */,
@@ -174,6 +179,7 @@
 				C32CBE762327DDFE0057983C /* Sources */,
 				C32CBE772327DDFE0057983C /* Frameworks */,
 				C32CBE782327DDFE0057983C /* Resources */,
+				F8A6D1937BF9A09F4446FCBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +343,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F8A6D1937BF9A09F4446FCBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wasted/Pods-Wasted-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wasted/Pods-Wasted-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wasted/Pods-Wasted-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FA144B97F93093A9B02D851D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +391,7 @@
 			files = (
 				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
+				C38681FD23600B1500D58105 /* quizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
