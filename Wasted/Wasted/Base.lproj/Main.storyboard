@@ -170,7 +170,7 @@
             </objects>
             <point key="canvasLocation" x="1243.4782608695652" y="237.72321428571428"/>
         </scene>
-        <!--Item 2-->
+        <!--Home-->
         <scene sceneID="lTQ-pu-z70">
             <objects>
                 <viewController id="c2p-o3-2f4" sceneMemberID="viewController">
@@ -180,13 +180,13 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VCJ-l6-SKD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="izS-Va-dUK"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="izS-Va-dUK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFk-fU-mCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-746" y="-538"/>
         </scene>
-        <!--Item-->
+        <!--Grocery List-->
         <scene sceneID="GFG-g2-R7n">
             <objects>
                 <viewController id="hHj-wE-D6c" sceneMemberID="viewController">
@@ -196,13 +196,13 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zcR-wc-l8j"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="cKH-Vd-Vpz"/>
+                    <tabBarItem key="tabBarItem" title="Grocery List" image="shopping cart" id="cKH-Vd-Vpz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="imC-tu-GVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="23" y="-538"/>
         </scene>
-        <!--Item 1-->
+        <!--Calendar-->
         <scene sceneID="ypG-W5-P7E">
             <objects>
                 <viewController id="T7b-Ge-YaT" sceneMemberID="viewController">
@@ -212,7 +212,7 @@
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qYf-Fv-YgS"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="PpV-4D-w4S"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="PpV-4D-w4S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vK-of-LWk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,11 +301,11 @@
             </objects>
             <point key="canvasLocation" x="1967" y="-1268"/>
         </scene>
-        <!--Item-->
+        <!--Services-->
         <scene sceneID="Ff5-Be-A8w">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Kc-d5-Cgm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="E3t-sz-foN"/>
+                    <tabBarItem key="tabBarItem" title="Services" image="service" id="E3t-sz-foN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Iuk-XG-k1j">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -322,6 +322,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" width="50" height="50"/>
         <image name="fire" width="1200" height="900"/>
+        <image name="home" width="50" height="50"/>
+        <image name="service" width="50" height="50"/>
+        <image name="shopping cart" width="48" height="48"/>
     </resources>
 </document>
