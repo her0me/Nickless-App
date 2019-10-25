@@ -144,8 +144,9 @@
                                                     <constraint firstAttribute="width" constant="353" id="I4e-H4-Wb4"/>
                                                 </constraints>
                                             </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-iE-sWI">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="plus" catalog="system" disabledBackground="paperplane.fill" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-iE-sWI">
                                                 <rect key="frame" x="62" y="409" width="97" height="34"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="FRK-Nj-bxK"/>
                                                     <constraint firstAttribute="width" constant="97" id="eSg-5W-R9D"/>
@@ -213,12 +214,223 @@
                                                     <constraint firstAttribute="height" constant="8" id="vN7-eM-k4b"/>
                                                 </constraints>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dietary Restrictions and Preferences" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6w-BN-NvK">
+                                                <rect key="frame" x="57" y="963" width="301" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="290" id="X8Z-CL-yq4"/>
+                                                    <constraint firstAttribute="height" constant="64" id="bpH-ZF-53Z"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flX-mn-Unn">
+                                                <rect key="frame" x="30" y="1024" width="353" height="8"/>
+                                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="8" id="CTJ-0O-5Ia"/>
+                                                    <constraint firstAttribute="width" constant="353" id="vIG-Iw-iwC"/>
+                                                </constraints>
+                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Children" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISF-mV-hgI">
                                                 <rect key="frame" x="175" y="465" width="64" height="23"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="23" id="1rh-YK-X49"/>
                                                     <constraint firstAttribute="width" constant="64" id="vTa-Fh-EXz"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8V-sM-meP">
+                                                <rect key="frame" x="111" y="732" width="59" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Male" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickBtn1:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="U2n-yc-wTm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gB-Rk-z3y">
+                                                <rect key="frame" x="90" y="845" width="64" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Small" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickSmalBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="Trd-wI-1RL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ra-a5-nCc">
+                                                <rect key="frame" x="90" y="891" width="82" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Regular" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickRegBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="2K4-Qr-Or4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4w-28-QG7">
+                                                <rect key="frame" x="90" y="933" width="175" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Large (Very Active)" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickLargeBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="spZ-gr-k90"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCa-ca-gPq">
+                                                <rect key="frame" x="53" y="1101" width="71" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Vegan" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickSmalBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="6ms-c9-oBb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUa-Az-BKL">
+                                                <rect key="frame" x="53" y="1131" width="101" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Vegitarian" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickRegBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="RUO-dL-BJ9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-x0-GFF">
+                                                <rect key="frame" x="53" y="1161" width="166" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Lactose Intolerant" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickLargeBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="Kxj-gp-Ahc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgA-fs-gej">
+                                                <rect key="frame" x="48" y="1191" width="151" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Peanut Allergies" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickSmalBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="lo7-DZ-Nun"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydy-e0-d52">
+                                                <rect key="frame" x="47" y="1221" width="114" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Gluten Free" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickRegBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="6d3-KD-efm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgP-6D-pyJ">
+                                                <rect key="frame" x="48" y="1251" width="77" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Kosher" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickLargeBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="nda-6z-9Rg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tm0-TJ-f4q">
+                                                <rect key="frame" x="224" y="731" width="79" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Female" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickBtn2:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="SPK-3v-ZRk"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Portion Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17E-Kv-DQE">
+                                                <rect key="frame" x="48" y="799" width="92" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can always change this" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-C0-wyw">
+                                                <rect key="frame" x="101" y="1040" width="210" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGy-6W-nJp">
+                                                <rect key="frame" x="47" y="1281" width="112" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Egg Allergy" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickSmalBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="OLJ-wq-92b"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qa-iW-XN2">
+                                                <rect key="frame" x="47" y="1311" width="150" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Tree Nut Allergy" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickRegBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="ORF-Dy-HIz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfD-24-9dW">
+                                                <rect key="frame" x="48" y="1341" width="137" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Peanut Allergy" image="square" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" image="square.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="onClickLargeBtn:" destination="Mdd-yh-NSW" eventType="touchUpInside" id="qou-AU-8pi"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dietary Restrictions and Preferences" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbw-sN-F2q">
+                                                <rect key="frame" x="58" y="1371" width="301" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="290" id="Pab-yh-KVh"/>
+                                                    <constraint firstAttribute="height" constant="64" id="dcf-CU-ybB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJ2-ea-Odd">
+                                                <rect key="frame" x="31" y="1432" width="353" height="8"/>
+                                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="353" id="Aoc-2r-6Pa"/>
+                                                    <constraint firstAttribute="height" constant="8" id="wwD-OU-yhQ"/>
+                                                </constraints>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can always change this" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUq-ae-KZy">
+                                                <rect key="frame" x="102" y="1448" width="210" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -234,6 +446,7 @@
                                             <constraint firstItem="io8-V7-mb1" firstAttribute="top" secondItem="6gT-zG-faX" secondAttribute="bottom" constant="-6" id="AG5-XI-v69"/>
                                             <constraint firstItem="2fa-LZ-eLQ" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="CDy-JF-I5b"/>
                                             <constraint firstAttribute="bottom" secondItem="2fa-LZ-eLQ" secondAttribute="bottom" constant="140.5" id="Czn-9A-PH6"/>
+                                            <constraint firstItem="flX-mn-Unn" firstAttribute="top" secondItem="O6w-BN-NvK" secondAttribute="bottom" constant="-3" id="GOz-tx-eCB"/>
                                             <constraint firstItem="BpN-On-QzW" firstAttribute="top" secondItem="9p7-GX-F6V" secondAttribute="top" constant="41" id="NUS-a9-Ae7"/>
                                             <constraint firstItem="zze-Vv-xG0" firstAttribute="top" secondItem="wx7-iE-sWI" secondAttribute="bottom" constant="16" id="OAr-t8-6bk"/>
                                             <constraint firstItem="BpN-On-QzW" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="OhS-zY-Ral"/>
@@ -244,6 +457,7 @@
                                             <constraint firstAttribute="bottom" secondItem="0Ul-yL-hIw" secondAttribute="bottom" constant="1674" id="SBU-oS-egR"/>
                                             <constraint firstItem="mXe-RD-6H3" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="Tmo-ah-QHM"/>
                                             <constraint firstItem="wtJ-uD-gdQ" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="Ts4-JG-ypi"/>
+                                            <constraint firstItem="aJ2-ea-Odd" firstAttribute="top" secondItem="pbw-sN-F2q" secondAttribute="bottom" constant="-3" id="W9o-1T-Hh4"/>
                                             <constraint firstItem="A13-Eo-TSD" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="WaD-vp-lL5"/>
                                             <constraint firstItem="Azx-UR-dWm" firstAttribute="top" secondItem="io8-V7-mb1" secondAttribute="bottom" constant="43.5" id="a3m-82-ozo"/>
                                             <constraint firstItem="i5U-fT-aVX" firstAttribute="centerX" secondItem="9p7-GX-F6V" secondAttribute="centerX" id="bI3-yq-Nb6"/>
@@ -285,6 +499,11 @@
                     <navigationItem key="navigationItem" title="Foodage" id="Qre-Nt-NFV"/>
                     <size key="freeformSize" width="414" height="2200"/>
                     <connections>
+                        <outlet property="btn1" destination="j8V-sM-meP" id="0RT-VS-klK"/>
+                        <outlet property="btn2" destination="Tm0-TJ-f4q" id="zsK-iw-Oie"/>
+                        <outlet property="largeBtn" destination="u4w-28-QG7" id="4UJ-n2-Ncd"/>
+                        <outlet property="regBtn" destination="8Ra-a5-nCc" id="ZMM-iC-6A4"/>
+                        <outlet property="smallBtn" destination="9gB-Rk-z3y" id="6Hh-O4-LDX"/>
                         <outlet property="textField" destination="wx7-iE-sWI" id="p7D-uG-gA3"/>
                     </connections>
                 </viewController>
@@ -295,5 +514,9 @@
     </scenes>
     <resources>
         <image name="fire" width="1200" height="900"/>
+        <image name="paperplane.fill" catalog="system" width="64" height="60"/>
+        <image name="plus" catalog="system" width="64" height="56"/>
+        <image name="square" catalog="system" width="64" height="56"/>
+        <image name="square.fill" catalog="system" width="64" height="56"/>
     </resources>
 </document>
