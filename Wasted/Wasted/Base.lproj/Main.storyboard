@@ -676,12 +676,12 @@
     <resources>
         <image name="calendar" width="50" height="50"/>
         <image name="fire" width="1200" height="900"/>
+        <image name="home" width="50" height="50"/>
         <image name="paperplane.fill" catalog="system" width="64" height="60"/>
         <image name="plus" catalog="system" width="64" height="56"/>
-        <image name="square" catalog="system" width="64" height="56"/>
-        <image name="square.fill" catalog="system" width="64" height="56"/>
-        <image name="home" width="50" height="50"/>
         <image name="service" width="50" height="50"/>
         <image name="shopping cart" width="48" height="48"/>
+        <image name="square" catalog="system" width="64" height="56"/>
+        <image name="square.fill" catalog="system" width="64" height="56"/>
     </resources>
 </document>
