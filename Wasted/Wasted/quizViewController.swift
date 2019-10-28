@@ -37,6 +37,11 @@ class quizViewController: UIViewController, UIPickerViewDataSource, UIPickerView
     @IBOutlet weak var regBtn: UIButton!
     @IBOutlet weak var largeBtn: UIButton!
     
+    @IBOutlet weak var kosherBtn: UIButton!
+    
+    
+    @IBOutlet weak var aidBtn: UIButton!
+    @IBOutlet weak var answer: UILabel!
     
     @IBAction func onClickBtn1(_ sender: Any) {
         if btn2.isSelected{
@@ -80,6 +85,17 @@ class quizViewController: UIViewController, UIPickerViewDataSource, UIPickerView
        
         largeBtn.isSelected = !largeBtn.isSelected
     }
+    
+    @IBAction func onClickKosherBtn(_ sender: Any) {
+        kosherBtn.isSelected = !kosherBtn.isSelected
+    }
+    
+    
+    @IBAction func onClickstuff(_ sender: Any) {
+        aidBtn.isSelected = !aidBtn.isSelected
+
+    }
+    
     
     
     
