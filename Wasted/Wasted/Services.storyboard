@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bVR-z3-KOc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8Gi-np-lfB">
+            <objects>
+                <viewController id="RTb-Et-GIF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qvC-DM-9Zb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9w-2g-IBg">
+                                <rect key="frame" x="132" y="423" width="150" height="50"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Fan-2p-hpN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="HUe-9t-jws"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="JkG-Nx-WMu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Nyx-uw-wRb"/>
+                                    <constraint firstAttribute="width" constant="100" id="bYb-s6-phs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Click to start">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleShadowColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JkG-Nx-WMu"/>
+                                        <exclude reference="bYb-s6-phs"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="nnx-Ox-chT" kind="show" id="oF3-Sm-wkR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q9w-2g-IBg" firstAttribute="centerX" secondItem="qvC-DM-9Zb" secondAttribute="centerX" id="iP0-Zc-G3e"/>
+                            <constraint firstItem="Q9w-2g-IBg" firstAttribute="centerY" secondItem="qvC-DM-9Zb" secondAttribute="centerY" id="pGh-2w-uKI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="osV-LP-6wR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DWQ-a7-Uc1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPp-Hq-XGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207" y="-1268"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g4V-XJ-qEE">
+            <objects>
+                <viewController id="nnx-Ox-chT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eo5-Ru-4q9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="32l-ON-1RO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ETX-Nz-eBq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jPc-ED-BDq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="-1268"/>
+        </scene>
+        <!--Services-->
+        <scene sceneID="KWj-DM-4YS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bVR-z3-KOc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Services" image="service" id="Ymx-Pr-j2Q"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="USc-0z-BgM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RTb-Et-GIF" kind="relationship" relationship="rootViewController" id="Bun-bn-t3f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Vw-6M-Ezh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="-1268"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="service" width="50" height="50"/>
+    </resources>
+</document>
