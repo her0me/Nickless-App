@@ -81,6 +81,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="USc-0z-BgM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+<<<<<<< HEAD
+=======
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+>>>>>>> 2d4094e33f49bdb5c8e0e17e3532fb42b00fc6a6
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

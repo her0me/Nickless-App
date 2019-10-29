@@ -316,7 +316,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-x0-GFF">
-                                                <rect key="frame" x="48" y="1161" width="166" height="22"/>
+                                                <rect key="frame" x="53" y="1161" width="166" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="166" id="1OA-gZ-L85"/>
                                                     <constraint firstAttribute="height" constant="22" id="zYa-rK-RfW"/>
@@ -490,6 +490,9 @@
                                                 <state key="normal" title="Complete">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="j0i-Z1-1Hd" kind="modal" id="WdH-aM-0nX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bj-gQ-A8q">
                                                 <rect key="frame" x="-221" y="1613" width="562" height="52"/>
@@ -693,7 +696,11 @@
         <!--Tab Bar Controller-->
         <scene sceneID="TyR-3S-rZT">
             <objects>
+<<<<<<< HEAD
                 <tabBarController id="j0i-Z1-1Hd" sceneMemberID="viewController">
+=======
+                <tabBarController modalPresentationStyle="fullScreen" id="j0i-Z1-1Hd" sceneMemberID="viewController">
+>>>>>>> 2d4094e33f49bdb5c8e0e17e3532fb42b00fc6a6
                     <navigationItem key="navigationItem" id="RWV-bf-Fwe"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xBh-1s-0id">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
