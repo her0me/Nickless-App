@@ -316,7 +316,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-x0-GFF">
-                                                <rect key="frame" x="53" y="1161" width="166" height="22"/>
+                                                <rect key="frame" x="48" y="1161" width="166" height="22"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="166" id="1OA-gZ-L85"/>
                                                     <constraint firstAttribute="height" constant="22" id="zYa-rK-RfW"/>
@@ -512,17 +512,6 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGs-XD-gjy">
-                                                <rect key="frame" x="111" y="373" width="119" height="133"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Start">
-                                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="j0i-Z1-1Hd" kind="show" id="0nR-6U-ACK"/>
-                                                </connections>
-                                            </button>
-
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -696,11 +685,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="TyR-3S-rZT">
             <objects>
-<<<<<<< HEAD
-                <tabBarController id="j0i-Z1-1Hd" sceneMemberID="viewController">
-=======
                 <tabBarController modalPresentationStyle="fullScreen" id="j0i-Z1-1Hd" sceneMemberID="viewController">
->>>>>>> 2d4094e33f49bdb5c8e0e17e3532fb42b00fc6a6
                     <navigationItem key="navigationItem" id="RWV-bf-Fwe"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xBh-1s-0id">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>

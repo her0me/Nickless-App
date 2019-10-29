@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5lx-iH-pxI">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyg-z3-4BZ">
->>>>>>> 2d4094e33f49bdb5c8e0e17e3532fb42b00fc6a6
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -12,7 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-<<<<<<< HEAD
         <!--Meal Selector Table-->
         <scene sceneID="5tz-ze-8oq">
             <objects>
@@ -102,24 +97,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWE-eS-xBo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-746.37681159420299" y="-538.39285714285711"/>
-=======
-        <!--Home-->
-        <scene sceneID="5tz-ze-8oq">
-            <objects>
-                <viewController id="lyg-z3-4BZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W7M-Qx-Srq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="RX4-Dv-f0u"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="JgH-PH-ofR"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P15-8Q-280" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-746" y="-538"/>
->>>>>>> 2d4094e33f49bdb5c8e0e17e3532fb42b00fc6a6
         </scene>
     </scenes>
     <resources>
