@@ -3,32 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE508ECB390ED4C8D8CC5CC8B62C848 /* MinoruTextField.swift */; };
+		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912F369C2116B2DD843674E57C40662 /* MinoruTextField.swift */; };
 		33F4C6AC0A4596CF78E24705DAFCBFE1 /* Pods-WastedUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC3BA167FC6F64599D59CED657246B /* Pods-WastedUITests-dummy.m */; };
-		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B6F63F1D2981510219456043BB999 /* TextFieldEffects.swift */; };
+		3412A9E0D9B130A246008AB317F397C6 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB90AFABB5132603A0002098A6ADEC /* MBCircularProgressBar-dummy.m */; };
+		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C02E707C5FBB2F1E53BD048B2B42E /* TextFieldEffects.swift */; };
 		3B6E467491560B047F2A36511B3DF619 /* Pods-WastedTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DA720B2AE621EF500D9648A7B54840 /* Pods-WastedTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF554A214369CED1BD739000F3F8834A /* TextFieldEffects-dummy.m */; };
+		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 502F8169164ABCE5A8AEF0559C8B5109 /* TextFieldEffects-dummy.m */; };
 		540F99EA181EA2CB247A754015358710 /* Pods-WastedUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29CB9D727899C2C1B92CAD46C7C9213 /* Pods-WastedUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F3CD6FC54AFE68407A0B6AE1DDDBA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		673B26AE33679A5ADF2D5EEC132027A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6B070A80EAF02A6FFFAE254AF0397458 /* Pods-Wasted-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4AE6383313FA3B5DC162D2A0E6893 /* Pods-Wasted-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F76EDD0251C931A8924E9535CD85B10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		777FFF67BD0D4E888460471DF8D6A823 /* Pods-WastedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6178628C215CD281BB0EBDEC6245F /* Pods-WastedTests-dummy.m */; };
-		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEFCABF58E83D4901A550DAF7552EB /* JiroTextField.swift */; };
-		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEBD479D1FAFBF757889F35989D7F1B /* AkiraTextField.swift */; };
-		A7C6CA1567F15C549DF432C4E73CDCF7 /* Pods-Wasted-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F112713A5837ECCA539985DE277638 /* Pods-Wasted-dummy.m */; };
-		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376B9EFB91A9F911FB355EA8E504D0F /* YokoTextField.swift */; };
-		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34629C20884BD4EE1F3FA472F8A65E8F /* HoshiTextField.swift */; };
-		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E03CA0F8ECE4CDDF43CDF8CFC580F8 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0A426913125773CE305C2483A302BAA /* Pods-Wasted-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4AE6383313FA3B5DC162D2A0E6893 /* Pods-Wasted-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7610B45CADD2C02FC3A5DAB6024E503 /* KaedeTextField.swift */; };
+		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089DA326EB8A4AC317ED3F032E63E105 /* JiroTextField.swift */; };
+		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899167686A0429F7C4A5675DC03298 /* AkiraTextField.swift */; };
+		A707CE239718AA22DABEE3417BF69970 /* Pods-Wasted-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F112713A5837ECCA539985DE277638 /* Pods-Wasted-dummy.m */; };
+		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB45B24FC4E772F75BB974068B162B /* YokoTextField.swift */; };
+		A8D190DBB6AC3C998FCA54EC810EDE25 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B96B97AA23EDF4FD0EE44659B8E62 /* MBCircularProgressBarView.m */; };
+		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86F415553EF50D3CD2E920BE986ACE /* HoshiTextField.swift */; };
+		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF46FA80584FB0052582484390607AE2 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF35DEA9B9504FF10DCB6318A5F4741C /* MBCircularProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar.bundle */; };
+		B2951C6401A44274F96893ACEA23B734 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B35A1DA0BCE14C0BC8C021524477E93 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B391B5795F1527C453904641A5A61AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B5B78B08A40B48EA2EF14C54DB496BFF /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A424D2841C0EBD60130836E9C47FB7 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093089DAF2C0C646CEFD5EB6394CE22 /* KaedeTextField.swift */; };
 		D10548B59A2671C1A8CF28CACB67684A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F4AFD40EE0EE027BD14E7287F70593 /* MadokaTextField.swift */; };
-		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31804C5422B89089F84204D918657338 /* YoshikoTextField.swift */; };
-		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530735014183196C2AC38AF369201729 /* IsaoTextField.swift */; };
+		D929BA37AA35F7FC5F94774B92DD4A45 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C4AC934A72CB6B82871B904BCEF26 /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B0AFAA5CFBF5C671BE37CEAAE2EE1 /* MadokaTextField.swift */; };
+		E2072177AFAEFE3EFDABDB8D5F1193C2 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A465702F89126FCFF9112D35A16E74A /* MBCircularProgressBarLayer.m */; };
+		E4B016A35CF021CA0F9790F136517877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261BFEEAE14E26095A0BAF028BD7214 /* YoshikoTextField.swift */; };
+		E669B08C4915DB763FAF5FCA7E50D08C /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D64ED662D006F1134FC0F0F02D2A829 /* example.png */; };
+		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51078C42E39D73988E33A35F2735EBE5 /* IsaoTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +48,19 @@
 			remoteGlobalIDString = 01A6A555D34FF6A6288B042A0D6E1D9C;
 			remoteInfo = "Pods-Wasted";
 		};
-		995E574F54E86A4431E48C5E95AAD08F /* PBXContainerItemProxy */ = {
+		7626726349A2BFBAB25B66E1E2685919 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
-			remoteInfo = TextFieldEffects;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		7A3839CC7C71DC1A849358F16D5182FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA5E348E64AFAB335EC680A67122E64;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
 		};
 		C30597167B1014D76E86E7193922F49D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,64 +69,100 @@
 			remoteGlobalIDString = 01A6A555D34FF6A6288B042A0D6E1D9C;
 			remoteInfo = "Pods-Wasted";
 		};
+		D534E1F3ACB48DCA7C3B002A75ACD262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		089DA326EB8A4AC317ED3F032E63E105 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
 		0B2AC85EDF48A8EE45C5D0CAE939F029 /* Pods-WastedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastedUITests.release.xcconfig"; sourceTree = "<group>"; };
-		18E03CA0F8ECE4CDDF43CDF8CFC580F8 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		0F472C291F93FC44C28F718DA2B02C19 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		11A424D2841C0EBD60130836E9C47FB7 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		1FF119FB615414A54EC45DF2EDD3DA0D /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
 		24B4AE6383313FA3B5DC162D2A0E6893 /* Pods-Wasted-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wasted-umbrella.h"; sourceTree = "<group>"; };
 		25FC3BA167FC6F64599D59CED657246B /* Pods-WastedUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WastedUITests-dummy.m"; sourceTree = "<group>"; };
+		272C02E707C5FBB2F1E53BD048B2B42E /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		2BDB975154836DD460B7487F7841290F /* Pods-WastedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastedTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31804C5422B89089F84204D918657338 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		3093089DAF2C0C646CEFD5EB6394CE22 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34629C20884BD4EE1F3FA472F8A65E8F /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		35DA720B2AE621EF500D9648A7B54840 /* Pods-WastedTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WastedTests-umbrella.h"; sourceTree = "<group>"; };
-		3AEBD479D1FAFBF757889F35989D7F1B /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		3B35A1DA0BCE14C0BC8C021524477E93 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		3BAB45B24FC4E772F75BB974068B162B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
 		42049146A8D202A87E1EA4D5196E9B1C /* Pods-WastedTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastedTests-Info.plist"; sourceTree = "<group>"; };
+		43D4184088D9E24318F91101CC27AD0C /* MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		492E69D1E3B7E02A89F8F509DA831AE2 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
 		4A0040D4FB93A47CA609D7B706AAB6EA /* Pods-Wasted-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wasted-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A465702F89126FCFF9112D35A16E74A /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
 		4A613B6D941E96D663AD159EDE6F4529 /* Pods-Wasted-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wasted-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DCEFCABF58E83D4901A550DAF7552EB /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		530735014183196C2AC38AF369201729 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		5AE508ECB390ED4C8D8CC5CC8B62C848 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		502F8169164ABCE5A8AEF0559C8B5109 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		51078C42E39D73988E33A35F2735EBE5 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		5261BFEEAE14E26095A0BAF028BD7214 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		5C4B96B97AA23EDF4FD0EE44659B8E62 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar.framework; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6854E3A065A5860514C6E3C327EC5B20 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
 		6AFBBC2E377796136CD4A838A0227A53 /* Pods-WastedTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WastedTests.modulemap"; sourceTree = "<group>"; };
 		6C4441100759CCEBCD2C59466CD6E461 /* Pods-WastedUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastedUITests-Info.plist"; sourceTree = "<group>"; };
 		6D667442792A20AAC28B67955522BB8C /* Pods-Wasted-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wasted-Info.plist"; sourceTree = "<group>"; };
 		6EE6178628C215CD281BB0EBDEC6245F /* Pods-WastedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WastedTests-dummy.m"; sourceTree = "<group>"; };
-		7376B9EFB91A9F911FB355EA8E504D0F /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		790F46D32EDA93872E9530FD0AEFFCB8 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		79DB90AFABB5132603A0002098A6ADEC /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBCircularProgressBar.bundle; path = "MBCircularProgressBar-MBCircularProgressBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA26C125528FB0960782552DB97BA4E /* Pods-WastedUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WastedUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E66EB8310BBF71DDE8AEBE900B9BF0E /* Pods_WastedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WastedTests.framework; path = "Pods-WastedTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		815B663443E542A0D2B4104C7CFD8197 /* Pods-WastedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastedTests.debug.xcconfig"; sourceTree = "<group>"; };
-		84EEED48A54AFD757F489222D5672C06 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
 		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96889A1A151B93BE182D2DF80106B83F /* Pods-WastedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WastedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		96D1E5E718968964F448DA47EEC717A9 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		9B482D206DD0A1E0B081122186584A08 /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		9C6CC09E9CDDD4ACB246EA0449C7F51B /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		9D64ED662D006F1134FC0F0F02D2A829 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F52BABA96C14244D0DF29543CD213D1 /* Pods-WastedUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastedUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A28C4AC934A72CB6B82871B904BCEF26 /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		A9DB2AFD54ED11B218A26A03BE5DC901 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		A9F112713A5837ECCA539985DE277638 /* Pods-Wasted-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wasted-dummy.m"; sourceTree = "<group>"; };
 		B04A009916AE102E4D77A9E3B4805730 /* Pods-Wasted-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wasted-frameworks.sh"; sourceTree = "<group>"; };
 		B2A408DC0D0DFE14930A426DE55897E9 /* Pods-Wasted.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wasted.modulemap"; sourceTree = "<group>"; };
+		BF46FA80584FB0052582484390607AE2 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		C29CB9D727899C2C1B92CAD46C7C9213 /* Pods-WastedUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WastedUITests-umbrella.h"; sourceTree = "<group>"; };
 		C8AF796B6205194D955FFEC297F0DD63 /* Pods-Wasted.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasted.release.xcconfig"; sourceTree = "<group>"; };
-		CA0B6F63F1D2981510219456043BB999 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		CCCE689DD6745316CCA6D2AD0AC9C40F /* Pods-Wasted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasted.debug.xcconfig"; sourceTree = "<group>"; };
 		D330CF4781028803AFA6D59A95AA3DCE /* Pods_WastedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WastedUITests.framework; path = "Pods-WastedUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7610B45CADD2C02FC3A5DAB6024E503 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		D78A36E3CED7D6ED3E9BA11E5C8F7F6A /* Pods_Wasted.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wasted.framework; path = "Pods-Wasted.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF554A214369CED1BD739000F3F8834A /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		DF86F415553EF50D3CD2E920BE986ACE /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		DFF8DD405C0DC308CEB718C125449D26 /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
-		E1F4AFD40EE0EE027BD14E7287F70593 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		EBED9AA53C64FA143FBB631DE4643D3C /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		E912F369C2116B2DD843674E57C40662 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		EA899167686A0429F7C4A5675DC03298 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
 		EFAAFAD477CA108CD43025D8560BF767 /* Pods-WastedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8B0AFAA5CFBF5C671BE37CEAAE2EE1 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		FDC7D7FC2FBF40B4EDE25E999130B5B0 /* Pods-WastedUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WastedUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		208A4880493F746F08D82916A5C41B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B016A35CF021CA0F9790F136517877 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63E76A0B73C828CCE602153E876032A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6F76EDD0251C931A8924E9535CD85B10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF5CBBF8423F0F4423AF6DDCE468D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,14 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3E1764A145ACE7089ACED511BE85D1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F3CD6FC54AFE68407A0B6AE1DDDBA18 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B787F0B7E249DD460EE5386ED2353444 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,13 +182,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEF98BA925FA4743970105B0EBFEA69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B391B5795F1527C453904641A5A61AF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */ = {
+		09CD18C398A3F30085CDF9A801369644 /* MBCircularProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				B863AC1714167AB1D2C1E7A4A6218005 /* TextFieldEffects */,
+				11A424D2841C0EBD60130836E9C47FB7 /* MBCircularProgressBarLayer.h */,
+				4A465702F89126FCFF9112D35A16E74A /* MBCircularProgressBarLayer.m */,
+				3B35A1DA0BCE14C0BC8C021524477E93 /* MBCircularProgressBarView.h */,
+				5C4B96B97AA23EDF4FD0EE44659B8E62 /* MBCircularProgressBarView.m */,
+				902FF557A14EAEEDFFE2B1576E6A7BB3 /* Resources */,
+				2B4B38A657DB6E257FD0A5C2D9FCAE11 /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		1ED31E0CC96A7653A1EDA4AF6DE69152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09CD18C398A3F30085CDF9A801369644 /* MBCircularProgressBar */,
+				B49AE720EE7E6A139F19DEE2E909F862 /* TextFieldEffects */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -182,15 +249,19 @@
 			path = "Target Support Files/Pods-WastedTests";
 			sourceTree = "<group>";
 		};
-		44BF8DAD5E2EC5D4EF5077CB7170A5C1 /* Products */ = {
+		2B4B38A657DB6E257FD0A5C2D9FCAE11 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D78A36E3CED7D6ED3E9BA11E5C8F7F6A /* Pods_Wasted.framework */,
-				7E66EB8310BBF71DDE8AEBE900B9BF0E /* Pods_WastedTests.framework */,
-				D330CF4781028803AFA6D59A95AA3DCE /* Pods_WastedUITests.framework */,
-				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+				492E69D1E3B7E02A89F8F509DA831AE2 /* MBCircularProgressBar.modulemap */,
+				064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */,
+				79DB90AFABB5132603A0002098A6ADEC /* MBCircularProgressBar-dummy.m */,
+				43D4184088D9E24318F91101CC27AD0C /* MBCircularProgressBar-Info.plist */,
+				9B482D206DD0A1E0B081122186584A08 /* MBCircularProgressBar-prefix.pch */,
+				A28C4AC934A72CB6B82871B904BCEF26 /* MBCircularProgressBar-umbrella.h */,
+				1FF119FB615414A54EC45DF2EDD3DA0D /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
 			sourceTree = "<group>";
 		};
 		4511BA76550F6685F4D4CE5FA5E338A7 /* Pods-WastedUITests */ = {
@@ -209,18 +280,39 @@
 			path = "Target Support Files/Pods-WastedUITests";
 			sourceTree = "<group>";
 		};
-		8CC83A35951DD8E16393542E85AC4140 /* Support Files */ = {
+		5E06AFE72767A666E972E83360359C5E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E5E718968964F448DA47EEC717A9 /* TextFieldEffects.modulemap */,
-				84EEED48A54AFD757F489222D5672C06 /* TextFieldEffects.xcconfig */,
-				DF554A214369CED1BD739000F3F8834A /* TextFieldEffects-dummy.m */,
-				790F46D32EDA93872E9530FD0AEFFCB8 /* TextFieldEffects-Info.plist */,
-				EBED9AA53C64FA143FBB631DE4643D3C /* TextFieldEffects-prefix.pch */,
-				18E03CA0F8ECE4CDDF43CDF8CFC580F8 /* TextFieldEffects-umbrella.h */,
+				A9DB2AFD54ED11B218A26A03BE5DC901 /* TextFieldEffects.modulemap */,
+				6854E3A065A5860514C6E3C327EC5B20 /* TextFieldEffects.xcconfig */,
+				502F8169164ABCE5A8AEF0559C8B5109 /* TextFieldEffects-dummy.m */,
+				0F472C291F93FC44C28F718DA2B02C19 /* TextFieldEffects-Info.plist */,
+				9C6CC09E9CDDD4ACB246EA0449C7F51B /* TextFieldEffects-prefix.pch */,
+				BF46FA80584FB0052582484390607AE2 /* TextFieldEffects-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		7E03FAF60881BDD17C4152EAAA56BC72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar.bundle */,
+				640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */,
+				D78A36E3CED7D6ED3E9BA11E5C8F7F6A /* Pods_Wasted.framework */,
+				7E66EB8310BBF71DDE8AEBE900B9BF0E /* Pods_WastedTests.framework */,
+				D330CF4781028803AFA6D59A95AA3DCE /* Pods_WastedUITests.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902FF557A14EAEEDFFE2B1576E6A7BB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D64ED662D006F1134FC0F0F02D2A829 /* example.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		91BF92E321A5DAB1FCEDFECEFEC9B31F /* Targets Support Files */ = {
@@ -233,20 +325,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B863AC1714167AB1D2C1E7A4A6218005 /* TextFieldEffects */ = {
+		B49AE720EE7E6A139F19DEE2E909F862 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				3AEBD479D1FAFBF757889F35989D7F1B /* AkiraTextField.swift */,
-				34629C20884BD4EE1F3FA472F8A65E8F /* HoshiTextField.swift */,
-				530735014183196C2AC38AF369201729 /* IsaoTextField.swift */,
-				4DCEFCABF58E83D4901A550DAF7552EB /* JiroTextField.swift */,
-				D7610B45CADD2C02FC3A5DAB6024E503 /* KaedeTextField.swift */,
-				E1F4AFD40EE0EE027BD14E7287F70593 /* MadokaTextField.swift */,
-				5AE508ECB390ED4C8D8CC5CC8B62C848 /* MinoruTextField.swift */,
-				CA0B6F63F1D2981510219456043BB999 /* TextFieldEffects.swift */,
-				7376B9EFB91A9F911FB355EA8E504D0F /* YokoTextField.swift */,
-				31804C5422B89089F84204D918657338 /* YoshikoTextField.swift */,
-				8CC83A35951DD8E16393542E85AC4140 /* Support Files */,
+				EA899167686A0429F7C4A5675DC03298 /* AkiraTextField.swift */,
+				DF86F415553EF50D3CD2E920BE986ACE /* HoshiTextField.swift */,
+				51078C42E39D73988E33A35F2735EBE5 /* IsaoTextField.swift */,
+				089DA326EB8A4AC317ED3F032E63E105 /* JiroTextField.swift */,
+				3093089DAF2C0C646CEFD5EB6394CE22 /* KaedeTextField.swift */,
+				FC8B0AFAA5CFBF5C671BE37CEAAE2EE1 /* MadokaTextField.swift */,
+				E912F369C2116B2DD843674E57C40662 /* MinoruTextField.swift */,
+				272C02E707C5FBB2F1E53BD048B2B42E /* TextFieldEffects.swift */,
+				3BAB45B24FC4E772F75BB974068B162B /* YokoTextField.swift */,
+				5261BFEEAE14E26095A0BAF028BD7214 /* YoshikoTextField.swift */,
+				5E06AFE72767A666E972E83360359C5E /* Support Files */,
 			);
 			name = TextFieldEffects;
 			path = TextFieldEffects;
@@ -265,8 +357,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */,
-				44BF8DAD5E2EC5D4EF5077CB7170A5C1 /* Products */,
+				1ED31E0CC96A7653A1EDA4AF6DE69152 /* Pods */,
+				7E03FAF60881BDD17C4152EAAA56BC72 /* Products */,
 				91BF92E321A5DAB1FCEDFECEFEC9B31F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -282,6 +374,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4F7DFA4D075AF2C8C3D4146AE6034D68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B070A80EAF02A6FFFAE254AF0397458 /* Pods-Wasted-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55527FAA701B617DE6611E79A3E61B85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,14 +398,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD404AE388EE0AD77E5BBB596EE95D47 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0A426913125773CE305C2483A302BAA /* Pods-Wasted-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C157353C93028E802E01175464C44D79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,26 +406,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F054FECB85406FECA66155626CBAD5E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D929BA37AA35F7FC5F94774B92DD4A45 /* MBCircularProgressBar-umbrella.h in Headers */,
+				B5B78B08A40B48EA2EF14C54DB496BFF /* MBCircularProgressBarLayer.h in Headers */,
+				B2951C6401A44274F96893ACEA23B734 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		01A6A555D34FF6A6288B042A0D6E1D9C /* Pods-Wasted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A291046C315BA69A2C9187CB40B35F3 /* Build configuration list for PBXNativeTarget "Pods-Wasted" */;
+			buildConfigurationList = C65181DBD41052402A932B863FC30FE9 /* Build configuration list for PBXNativeTarget "Pods-Wasted" */;
 			buildPhases = (
-				AD404AE388EE0AD77E5BBB596EE95D47 /* Headers */,
-				C512A55709A69EB87E3C46723849D103 /* Sources */,
-				B3E1764A145ACE7089ACED511BE85D1A /* Frameworks */,
-				52DD062D45C087D9C41577C38CF6ABC3 /* Resources */,
+				4F7DFA4D075AF2C8C3D4146AE6034D68 /* Headers */,
+				1523B8DF1BB5302420C4BD1AA3CF3877 /* Sources */,
+				208A4880493F746F08D82916A5C41B8A /* Frameworks */,
+				17E1A18BCB76AB5AB05F458446FEF285 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA8C67FF1F8592F4C9A10211DB3F40E5 /* PBXTargetDependency */,
+				BD48DB3004F37E82C3B6EC41633242F7 /* PBXTargetDependency */,
+				741C6BA943A14ADE227D961BD9925970 /* PBXTargetDependency */,
 			);
 			name = "Pods-Wasted";
 			productName = "Pods-Wasted";
 			productReference = D78A36E3CED7D6ED3E9BA11E5C8F7F6A /* Pods_Wasted.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1B83AFEEE9608D2F57046BDBC0304E /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				F054FECB85406FECA66155626CBAD5E8 /* Headers */,
+				4571442C8D822609187F137AC2842BC0 /* Sources */,
+				EEF98BA925FA4743970105B0EBFEA69F /* Frameworks */,
+				3128B19DB08F9911DDC7E47EC79366AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E819913C64B17926B0EB314BC61355 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = 640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5CBB0B3E670F0343A7FF3E7721356571 /* Pods-WastedTests */ = {
@@ -354,6 +476,23 @@
 			productName = "Pods-WastedTests";
 			productReference = 7E66EB8310BBF71DDE8AEBE900B9BF0E /* Pods_WastedTests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ED6E3A484B404CCDBE0C1BAD69B1D9 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				B53D9374D58A40E6E030BDD57C438CFF /* Sources */,
+				8AFF5CBBF8423F0F4423AF6DDCE468D5 /* Frameworks */,
+				6CD6ED76229EE833A472E459DDFFD8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		A506D09C0E556922FF5294275A1CE8EF /* Pods-WastedUITests */ = {
 			isa = PBXNativeTarget;
@@ -402,17 +541,19 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 44BF8DAD5E2EC5D4EF5077CB7170A5C1 /* Products */;
+			productRefGroup = 7E03FAF60881BDD17C4152EAAA56BC72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */,
+				8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */,
 				01A6A555D34FF6A6288B042A0D6E1D9C /* Pods-Wasted */,
 				5CBB0B3E670F0343A7FF3E7721356571 /* Pods-WastedTests */,
 				A506D09C0E556922FF5294275A1CE8EF /* Pods-WastedUITests */,
@@ -422,6 +563,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		17E1A18BCB76AB5AB05F458446FEF285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,10 +577,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52DD062D45C087D9C41577C38CF6ABC3 /* Resources */ = {
+		3128B19DB08F9911DDC7E47EC79366AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF35DEA9B9504FF10DCB6318A5F4741C /* MBCircularProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD6ED76229EE833A472E459DDFFD8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E669B08C4915DB763FAF5FCA7E50D08C /* example.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,11 +610,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C512A55709A69EB87E3C46723849D103 /* Sources */ = {
+		1523B8DF1BB5302420C4BD1AA3CF3877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C6CA1567F15C549DF432C4E73CDCF7 /* Pods-Wasted-dummy.m in Sources */,
+				A707CE239718AA22DABEE3417BF69970 /* Pods-Wasted-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4571442C8D822609187F137AC2842BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3412A9E0D9B130A246008AB317F397C6 /* MBCircularProgressBar-dummy.m in Sources */,
+				E2072177AFAEFE3EFDABDB8D5F1193C2 /* MBCircularProgressBarLayer.m in Sources */,
+				A8D190DBB6AC3C998FCA54EC810EDE25 /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D9374D58A40E6E030BDD57C438CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,11 +678,23 @@
 			target = 01A6A555D34FF6A6288B042A0D6E1D9C /* Pods-Wasted */;
 			targetProxy = 63AD666EC218E3DEAA098B2043B4AA5D /* PBXContainerItemProxy */;
 		};
-		CA8C67FF1F8592F4C9A10211DB3F40E5 /* PBXTargetDependency */ = {
+		741C6BA943A14ADE227D961BD9925970 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
 			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
-			targetProxy = 995E574F54E86A4431E48C5E95AAD08F /* PBXContainerItemProxy */;
+			targetProxy = D534E1F3ACB48DCA7C3B002A75ACD262 /* PBXContainerItemProxy */;
+		};
+		81E819913C64B17926B0EB314BC61355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 7A3839CC7C71DC1A849358F16D5182FC /* PBXContainerItemProxy */;
+		};
+		BD48DB3004F37E82C3B6EC41633242F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = 7626726349A2BFBAB25B66E1E2685919 /* PBXContainerItemProxy */;
 		};
 		D435E645A6B204DE9C2E68BCC0985957 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -560,7 +746,7 @@
 		};
 		190F4671576B740682CFF85D8A5F01B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84EEED48A54AFD757F489222D5672C06 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 6854E3A065A5860514C6E3C327EC5B20 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -593,9 +779,44 @@
 			};
 			name = Debug;
 		};
-		4051C713E833CCB416B297417B4F6818 /* Release */ = {
+		1CB7C8AC2C08230330F41B45EF98C04B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8AF796B6205194D955FFEC297F0DD63 /* Pods-Wasted.release.xcconfig */;
+			baseConfigurationReference = 064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2819A38F414FD53B3010E9A30591AE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCE689DD6745316CCA6D2AD0AC9C40F /* Pods-Wasted.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -626,11 +847,26 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		3D1C58A4F3E3BD2B6EC16A29F0E2F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		5D608A07FA07B30328DCC81C0A0E687D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -657,6 +893,45 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WastedUITests/Pods-WastedUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60A67AAB6D879B982C4F1946729BEC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AF796B6205194D955FFEC297F0DD63 /* Pods-Wasted.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wasted/Pods-Wasted-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wasted/Pods-Wasted.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -735,47 +1010,9 @@
 			};
 			name = Debug;
 		};
-		6C936D07462AD6D83E63EFE282D75B89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCCE689DD6745316CCA6D2AD0AC9C40F /* Pods-Wasted.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Wasted/Pods-Wasted-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Wasted/Pods-Wasted.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		794827EFA130E05328CAD89FE3BBB5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84EEED48A54AFD757F489222D5672C06 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 6854E3A065A5860514C6E3C327EC5B20 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -806,6 +1043,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DFFF0A56B67CF26272DF7CA25D6AA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -945,6 +1198,42 @@
 			};
 			name = Debug;
 		};
+		FDCECAF2FF1842B67F6D566096B63245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064C0B9439D7468805E1F365F5F7130C /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -953,15 +1242,6 @@
 			buildConfigurations = (
 				B2B364855B3C684345C10F71FA690E59 /* Debug */,
 				5D608A07FA07B30328DCC81C0A0E687D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2A291046C315BA69A2C9187CB40B35F3 /* Build configuration list for PBXNativeTarget "Pods-Wasted" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C936D07462AD6D83E63EFE282D75B89 /* Debug */,
-				4051C713E833CCB416B297417B4F6818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -984,11 +1264,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A7ED6E3A484B404CCDBE0C1BAD69B1D9 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1C58A4F3E3BD2B6EC16A29F0E2F866 /* Debug */,
+				9DFFF0A56B67CF26272DF7CA25D6AA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1B83AFEEE9608D2F57046BDBC0304E /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB7C8AC2C08230330F41B45EF98C04B /* Debug */,
+				FDCECAF2FF1842B67F6D566096B63245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				190F4671576B740682CFF85D8A5F01B5 /* Debug */,
 				794827EFA130E05328CAD89FE3BBB5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65181DBD41052402A932B863FC30FE9 /* Build configuration list for PBXNativeTarget "Pods-Wasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819A38F414FD53B3010E9A30591AE59 /* Debug */,
+				60A67AAB6D879B982C4F1946729BEC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

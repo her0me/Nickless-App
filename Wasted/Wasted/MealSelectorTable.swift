@@ -25,10 +25,10 @@ class MealSelectorTable: UIViewController {
     func createArray() -> [Meal]{
         var tempMeals: [Meal] = []
         
-        let meal1 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal2 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal3 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal4 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
+        let meal1 = Meal(image: #imageLiteral(resourceName: "fire"), title: "ramen noodles")
+        let meal2 = Meal(image: #imageLiteral(resourceName: "home"), title: "pb and j")
+        let meal3 = Meal(image: #imageLiteral(resourceName: "service"), title: "mac n cheese")
+        let meal4 = Meal(image: #imageLiteral(resourceName: "fire"), title: "peanut butter")
         let meal5 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
         let meal6 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
         
@@ -42,18 +42,26 @@ class MealSelectorTable: UIViewController {
         return tempMeals
     }
 
-
 }
 
 extension MealSelectorTable: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let meal = meals[indexPath.row]
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "MealCell") as! MealCell
-        
         cell.setMeal(meal: meal)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let meal = meals[indexPath.row]
+        performSegue(withIdentifier: "select", sender: meal)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let svc = segue.destination as! MealViewController
+        svc.mealImage = sender as! Meal
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

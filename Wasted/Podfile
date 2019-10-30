@@ -6,6 +6,7 @@ target 'Wasted' do
   use_frameworks!
   
   pod 'TextFieldEffects'
+  pod "MBCircularProgressBar"
 
   target 'WastedTests' do
     inherit! :search_paths
