@@ -21,6 +21,7 @@
 		C32CBE882327DDFF0057983C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */; };
 		C32CBE932327DE000057983C /* WastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE922327DE000057983C /* WastedTests.swift */; };
 		C32CBE9E2327DE000057983C /* WastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE9D2327DE000057983C /* WastedUITests.swift */; };
+		C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C0DBF2368D8F3005A987B /* MealViewController.swift */; };
 		C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D809F2367AD1B00672D18 /* MealSelectorTable.swift */; };
 		C34D80A22367B34100672D18 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D80A12367B34100672D18 /* MealCell.swift */; };
 		C34D80A42367B54900672D18 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D80A32367B54900672D18 /* Meal.swift */; };
@@ -72,6 +73,7 @@
 		C32CBE992327DE000057983C /* WastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WastedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32CBE9D2327DE000057983C /* WastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastedUITests.swift; sourceTree = "<group>"; };
 		C32CBE9F2327DE000057983C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34C0DBF2368D8F3005A987B /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		C34D809F2367AD1B00672D18 /* MealSelectorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSelectorTable.swift; sourceTree = "<group>"; };
 		C34D80A12367B34100672D18 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
 		C34D80A32367B54900672D18 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */,
 				C32CBE892327DE000057983C /* Info.plist */,
 				C34D809F2367AD1B00672D18 /* MealSelectorTable.swift */,
+				C34C0DBF2368D8F3005A987B /* MealViewController.swift */,
 				C34D80A12367B34100672D18 /* MealCell.swift */,
 				C34D80A32367B54900672D18 /* Meal.swift */,
 			);
@@ -420,6 +423,7 @@
 				C34D80A22367B34100672D18 /* MealCell.swift in Sources */,
 				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
+				C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */,
 				C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */,
 				C34D80A42367B54900672D18 /* Meal.swift in Sources */,
 				725FE79C2368E2DC00E6D607 /* CalendarViewController.swift in Sources */,
