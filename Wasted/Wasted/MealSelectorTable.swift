@@ -25,12 +25,12 @@ class MealSelectorTable: UIViewController {
     func createArray() -> [Meal]{
         var tempMeals: [Meal] = []
         
-        let meal1 = Meal(image: #imageLiteral(resourceName: "fire"), title: "ramen noodles")
-        let meal2 = Meal(image: #imageLiteral(resourceName: "home"), title: "pb and j")
-        let meal3 = Meal(image: #imageLiteral(resourceName: "service"), title: "mac n cheese")
-        let meal4 = Meal(image: #imageLiteral(resourceName: "fire"), title: "peanut butter")
-        let meal5 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal6 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
+        let meal1 = Meal(image: #imageLiteral(resourceName: "bagelpizza"), title: "Bagel Pizza")
+        let meal2 = Meal(image: #imageLiteral(resourceName: "pbj"), title: "Peanut Butter and Jelly")
+        let meal3 = Meal(image: #imageLiteral(resourceName: "smoothie"), title: "Banana Smoothie")
+        let meal4 = Meal(image: #imageLiteral(resourceName: "hamsam"), title: "Ham Sandwich")
+        let meal5 = Meal(image: #imageLiteral(resourceName: "chicknood"), title: "Chicken Noodle Soup")
+        let meal6 = Meal(image: #imageLiteral(resourceName: "oatmeal"), title: "Oatmeal")
         
         tempMeals.append(meal1)
         tempMeals.append(meal2)
