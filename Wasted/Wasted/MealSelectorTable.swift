@@ -25,12 +25,12 @@ class MealSelectorTable: UIViewController {
     func createArray() -> [Meal]{
         var tempMeals: [Meal] = []
         
-        let meal1 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal2 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal3 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal4 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal5 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
-        let meal6 = Meal(image: #imageLiteral(resourceName: "fire"), title: "Meal 1")
+        let meal1 = Meal(image: #imageLiteral(resourceName: "bagelpizza"), title: "Bagel Pizza")
+        let meal2 = Meal(image: #imageLiteral(resourceName: "pbj"), title: "Peanut Butter and Jelly")
+        let meal3 = Meal(image: #imageLiteral(resourceName: "smoothie"), title: "Banana Smoothie")
+        let meal4 = Meal(image: #imageLiteral(resourceName: "hamsam"), title: "Ham Sandwich")
+        let meal5 = Meal(image: #imageLiteral(resourceName: "chicknood"), title: "Chicken Noodle Soup")
+        let meal6 = Meal(image: #imageLiteral(resourceName: "oatmeal"), title: "Oatmeal")
         
         tempMeals.append(meal1)
         tempMeals.append(meal2)
@@ -42,18 +42,26 @@ class MealSelectorTable: UIViewController {
         return tempMeals
     }
 
-
 }
 
 extension MealSelectorTable: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let meal = meals[indexPath.row]
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "MealCell") as! MealCell
-        
         cell.setMeal(meal: meal)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let meal = meals[indexPath.row]
+        performSegue(withIdentifier: "select", sender: meal)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let svc = segue.destination as! MealViewController
+        svc.mealImage = sender as! Meal
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
