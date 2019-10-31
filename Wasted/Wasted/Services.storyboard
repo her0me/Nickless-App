@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Q9w-2g-IBg" firstAttribute="centerX" secondItem="qvC-DM-9Zb" secondAttribute="centerX" id="iP0-Zc-G3e"/>
                             <constraint firstItem="Q9w-2g-IBg" firstAttribute="centerY" secondItem="qvC-DM-9Zb" secondAttribute="centerY" id="pGh-2w-uKI"/>
@@ -62,7 +62,7 @@
                     <view key="view" contentMode="scaleToFill" id="Eo5-Ru-4q9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="32l-ON-1RO"/>
                     </view>
                     <navigationItem key="navigationItem" id="ETX-Nz-eBq"/>

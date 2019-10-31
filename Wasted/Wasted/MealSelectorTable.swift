@@ -27,7 +27,7 @@ class MealSelectorTable: UIViewController {
         
         let meal1 = Meal(image: #imageLiteral(resourceName: "bagelpizza"), title: "Bagel Pizza")
         let meal2 = Meal(image: #imageLiteral(resourceName: "pbj"), title: "Peanut Butter and Jelly")
-        let meal3 = Meal(image: #imageLiteral(resourceName: "smoothie"), title: "Banana Smoothie")
+        let meal3 = Meal(image: #imageLiteral(resourceName: "chick"), title: "Hawaiian Chicken")
         let meal4 = Meal(image: #imageLiteral(resourceName: "hamsam"), title: "Ham Sandwich")
         let meal5 = Meal(image: #imageLiteral(resourceName: "chicknood"), title: "Chicken Noodle Soup")
         let meal6 = Meal(image: #imageLiteral(resourceName: "tuna"), title: "Tuna Casserole")
