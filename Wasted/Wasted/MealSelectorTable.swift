@@ -15,7 +15,6 @@ class MealSelectorTable: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         meals = createArray()
         tableView.delegate = self
         tableView.dataSource = self

@@ -25,6 +25,9 @@
 		C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D809F2367AD1B00672D18 /* MealSelectorTable.swift */; };
 		C34D80A22367B34100672D18 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D80A12367B34100672D18 /* MealCell.swift */; };
 		C34D80A42367B54900672D18 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D80A32367B54900672D18 /* Meal.swift */; };
+		C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */; };
+		C36CCB80236CCC320002A0B6 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */; };
+		C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */; };
 		C38681FD23600B1500D58105 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38681FC23600B1500D58105 /* quizViewController.swift */; };
 		F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,9 @@
 		C34D809F2367AD1B00672D18 /* MealSelectorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSelectorTable.swift; sourceTree = "<group>"; };
 		C34D80A12367B34100672D18 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
 		C34D80A32367B54900672D18 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListSelectorTable.swift; sourceTree = "<group>"; };
+		C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		C38681FC23600B1500D58105 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
 		D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.release.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,10 +168,9 @@
 				C38681FC23600B1500D58105 /* quizViewController.swift */,
 				C32CBE812327DDFE0057983C /* Main.storyboard */,
 				72A068F52367228000B0AF2F /* Services.storyboard */,
-				72A068F32367226D00B0AF2F /* Calendar.storyboard */,
-				725FE79B2368E2DC00E6D607 /* CalendarViewController.swift */,
+				C375C9F8236CF361001A330D /* Calendar */,
 				72A068F12367225B00B0AF2F /* Home.storyboard */,
-				72D49B3B23671EB000CCE33D /* grocery list.storyboard */,
+				C375C9F9236CF3F5001A330D /* GroceryList */,
 				C32CBE842327DDFF0057983C /* Assets.xcassets */,
 				C32CBE862327DDFF0057983C /* LaunchScreen.storyboard */,
 				C32CBE892327DE000057983C /* Info.plist */,
@@ -193,6 +198,26 @@
 				C32CBE9F2327DE000057983C /* Info.plist */,
 			);
 			path = WastedUITests;
+			sourceTree = "<group>";
+		};
+		C375C9F8236CF361001A330D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				72A068F32367226D00B0AF2F /* Calendar.storyboard */,
+				725FE79B2368E2DC00E6D607 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C375C9F9236CF3F5001A330D /* GroceryList */ = {
+			isa = PBXGroup;
+			children = (
+				72D49B3B23671EB000CCE33D /* grocery list.storyboard */,
+				C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */,
+				C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */,
+				C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */,
+			);
+			path = GroceryList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,11 +447,14 @@
 			files = (
 				C34D80A22367B34100672D18 /* MealCell.swift in Sources */,
 				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
+				C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */,
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
 				C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */,
 				C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */,
+				C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */,
 				C34D80A42367B54900672D18 /* Meal.swift in Sources */,
 				725FE79C2368E2DC00E6D607 /* CalendarViewController.swift in Sources */,
+				C36CCB80236CCC320002A0B6 /* GroceryItem.swift in Sources */,
 				C38681FD23600B1500D58105 /* quizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
