@@ -178,10 +178,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sM-Sk-xRh">
-                                <rect key="frame" x="297" y="267" width="58" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$46.96" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sM-Sk-xRh">
+                                <rect key="frame" x="297" y="267" width="97" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="ROj-gN-Hm6"/>
+                                    <constraint firstAttribute="width" constant="97" id="ROj-gN-Hm6"/>
                                     <constraint firstAttribute="height" constant="28" id="kEg-qo-ixJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
