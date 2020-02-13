@@ -11,8 +11,19 @@ import FSCalendar
 
 class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate {
     
+    @IBOutlet weak var calenderView: FSCalendar!
+    
+    fileprivate weak var calendar: FSCalendar!
+    
     override func viewDidLoad() {
-
+        // In loadView or viewDidLoad
+        let calendar = FSCalendar(frame: CGRect(x: 0, y: 0, width: 320, height: 300))
+        calendar.dataSource = self
+        calendar.delegate = self
+        view.addSubview(calendar)
+        self.calendar = calendar
+        
+        
         // Do any additional setup after loading the view.
     }
     
