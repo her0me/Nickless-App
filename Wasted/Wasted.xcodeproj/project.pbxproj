@@ -28,6 +28,7 @@
 		C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */; };
 		C36CCB80236CCC320002A0B6 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */; };
 		C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */; };
+		C376D2AB23F5924A007510A7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376D2AA23F5924A007510A7 /* ServicesViewController.swift */; };
 		C38681FD23600B1500D58105 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38681FC23600B1500D58105 /* quizViewController.swift */; };
 		F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,7 @@
 		C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListSelectorTable.swift; sourceTree = "<group>"; };
 		C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		C376D2AA23F5924A007510A7 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesViewController.swift; path = "/Users/drewscheffer/Desktop/GitHub/Nickless-App/Wasted/Wasted/ServicesViewController.swift"; sourceTree = "<absolute>"; };
 		C38681FC23600B1500D58105 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
 		D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.release.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +168,7 @@
 				C32CBE7D2327DDFE0057983C /* AppDelegate.swift */,
 				C32CBE7F2327DDFE0057983C /* ViewController.swift */,
 				C38681FC23600B1500D58105 /* quizViewController.swift */,
+				C376D2AA23F5924A007510A7 /* ServicesViewController.swift */,
 				C32CBE812327DDFE0057983C /* Main.storyboard */,
 				72A068F52367228000B0AF2F /* Services.storyboard */,
 				C375C9F8236CF361001A330D /* Calendar */,
@@ -292,6 +295,7 @@
 				TargetAttributes = {
 					C32CBE792327DDFE0057983C = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1120;
 					};
 					C32CBE8D2327DE000057983C = {
 						CreatedOnToolsVersion = 10.3;
@@ -451,6 +455,7 @@
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
 				C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */,
 				C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */,
+				C376D2AB23F5924A007510A7 /* ServicesViewController.swift in Sources */,
 				C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */,
 				C34D80A42367B54900672D18 /* Meal.swift in Sources */,
 				725FE79C2368E2DC00E6D607 /* CalendarViewController.swift in Sources */,
@@ -631,6 +636,7 @@
 			baseConfigurationReference = 42C9C533112F687545C13DDF /* Pods-Wasted.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Wasted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -639,6 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = scheffer.drew.Wasted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -649,6 +656,7 @@
 			baseConfigurationReference = 54572670B3E09352B978DC72 /* Pods-Wasted.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Wasted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

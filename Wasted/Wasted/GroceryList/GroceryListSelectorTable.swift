@@ -7,6 +7,9 @@ class GroceryListSelectorTable: UIViewController {
     
     @IBOutlet weak var tableView2: UITableView!
     
+    @IBAction func findCouponsButtonPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.walmart.com/store/2619/midland-mi/coupons?search_redirect=true&redirectQuery=coupons")! as URL, options: [:], completionHandler: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
