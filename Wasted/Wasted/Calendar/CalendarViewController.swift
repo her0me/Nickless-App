@@ -9,14 +9,57 @@
 import UIKit
 import FSCalendar
 
-class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate {
+class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate, UIGestureRecognizerDelegate, UITableViewDelegate {
+    var mealImage: MealC!
+    var meals: [MealC] = []
+    @IBOutlet var viewThing: UIView!
     
-    override func viewDidLoad() {
-
+    @IBOutlet weak var calenderView: FSCalendar!
+    @IBOutlet weak var tableView1: UITableView!
+    @IBOutlet weak var tableView2: UITableView!
+    @IBOutlet weak var animationSwitch: UISwitch!
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var TitleLabel: UILabel!
+    
+    fileprivate weak var calendar: FSCalendar!
+    
+    override func loadView() {
+        super.loadView()
+        // In loadView or viewDidLoad
+        let calendar = FSCalendar(frame: .zero)//CGRect(x: 50, y: 50, width: 320, height: 300))
+        calendar.translatesAutoresizingMaskIntoConstraints = false
+        
+        calendar.dataSource = self
+        calendar.delegate = self
+        self.view.addSubview(calendar)
+        
+        NSLayoutConstraint.activate([
+            calendar.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 64*2),
+            calendar.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 32),
+            calendar.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -32),
+            calendar.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -64*5),
+        ])
+        
+        self.calendar = calendar
+        
+        image.image = mealImage.image
+        TitleLabel.text = mealImage.title
+        
+        meals = createArray()
+        tableView2.delegate = self
+        //tableView2.dataSource = self
+        
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return [2,1][section]
+    }
 
     /*
     // MARK: - Navigation
@@ -27,5 +70,24 @@ class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendar
         // Pass the selected object to the new view controller.
     }
     */
+    func createArray() -> [MealC]{
+        var tempMeals: [MealC] = []
+        
+        let meal1 = MealC(image: #imageLiteral(resourceName: "bagelpizza"), title: "Bagel Pizza")
+        let meal2 = MealC(image: #imageLiteral(resourceName: "pbj"), title: "Peanut Butter and Jelly")
+        let meal3 = MealC(image: #imageLiteral(resourceName: "chick"), title: "Hawaiian Chicken")
+        let meal4 = MealC(image: #imageLiteral(resourceName: "hamsam"), title: "Ham Sandwich")
+        let meal5 = MealC(image: #imageLiteral(resourceName: "chicknood"), title: "Chicken Noodle Soup")
+        let meal6 = MealC(image: #imageLiteral(resourceName: "tuna"), title: "Tuna Casserole")
+        
+        tempMeals.append(meal1)
+        tempMeals.append(meal2)
+        tempMeals.append(meal3)
+        tempMeals.append(meal4)
+        tempMeals.append(meal5)
+        tempMeals.append(meal6)
+        
+        return tempMeals
+    }
 
 }

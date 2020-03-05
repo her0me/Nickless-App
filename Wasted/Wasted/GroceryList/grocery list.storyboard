@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dbt-CS-utr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dbt-CS-utr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -134,8 +134,12 @@
         <scene sceneID="Mx6-FI-sGY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dbt-CS-utr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Grocery List" image="shopping cart" id="Y8G-3r-nUH"/>
+                    <tabBarItem key="tabBarItem" title="Grocery List" image="shopping cart" id="ygN-Ef-Fw6">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="8"/>
+                        <inset key="largeContentSizeImageInsets" minX="-1" minY="0.0" maxX="1" maxY="1"/>
+                    </tabBarItem>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ef9-oW-wJV">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
