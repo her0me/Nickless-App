@@ -128,7 +128,9 @@
         <scene sceneID="KWj-DM-4YS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bVR-z3-KOc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Services" image="service" id="Ymx-Pr-j2Q"/>
+                    <tabBarItem key="tabBarItem" title="Services" image="service" id="Ymx-Pr-j2Q">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="8"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="USc-0z-BgM">

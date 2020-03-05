@@ -14,6 +14,7 @@
 		72A068F42367226D00B0AF2F /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A068F32367226D00B0AF2F /* Calendar.storyboard */; };
 		72A068F62367228000B0AF2F /* Services.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A068F52367228000B0AF2F /* Services.storyboard */; };
 		72D49B3C23671EB000CCE33D /* grocery list.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D49B3B23671EB000CCE33D /* grocery list.storyboard */; };
+		72EED2D6240E9FAF00BFDC0C /* MealC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EED2D5240E9FAF00BFDC0C /* MealC.swift */; };
 		C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7D2327DDFE0057983C /* AppDelegate.swift */; };
 		C32CBE802327DDFE0057983C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7F2327DDFE0057983C /* ViewController.swift */; };
 		C32CBE832327DDFE0057983C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32CBE812327DDFE0057983C /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		72A068F32367226D00B0AF2F /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		72A068F52367228000B0AF2F /* Services.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Services.storyboard; sourceTree = "<group>"; };
 		72D49B3B23671EB000CCE33D /* grocery list.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "grocery list.storyboard"; sourceTree = "<group>"; };
+		72EED2D5240E9FAF00BFDC0C /* MealC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealC.swift; sourceTree = "<group>"; };
 		A998332B005002D5776D3175 /* Pods_WastedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE21EE9F55764FABAE7F9135 /* Pods-WastedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.debug.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C32CBE7A2327DDFE0057983C /* Wasted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasted.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +210,7 @@
 			children = (
 				72A068F32367226D00B0AF2F /* Calendar.storyboard */,
 				725FE79B2368E2DC00E6D607 /* CalendarViewController.swift */,
+				72EED2D5240E9FAF00BFDC0C /* MealC.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
 				C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */,
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
+				72EED2D6240E9FAF00BFDC0C /* MealC.swift in Sources */,
 				C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */,
 				C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */,
 				C376D2AB23F5924A007510A7 /* ServicesViewController.swift in Sources */,
