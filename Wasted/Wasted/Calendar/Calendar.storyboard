@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fcI-Li-90u">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fcI-Li-90u">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,15 +13,45 @@
             <objects>
                 <viewController id="I89-st-KZE" customClass="CalendarViewController" customModule="Wasted" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1bv-VS-GCJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSW-33-Irx">
+                                <rect key="frame" x="0.0" y="8" width="414" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tL7-vA-Xbq">
+                                <rect key="frame" x="213" y="87" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="            Day">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ol2-YZ-X3K" kind="show" animates="NO" id="YDc-2M-cqw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D8S-qA-3eZ">
+                                <rect key="frame" x="0.0" y="87" width="213" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="           Month">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="week" translatesAutoresizingMaskIntoConstraints="NO" id="lgz-8n-icx">
+                                <rect key="frame" x="102" y="87" width="68" height="40"/>
+                            </imageView>
                             <view contentMode="scaleToFill" id="Jp5-ff-1DE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="172" width="414" height="724"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WSa-D6-jlu">
-                                        <rect key="frame" x="0.0" y="551" width="414" height="254"/>
+                                        <rect key="frame" x="0.0" y="463" width="414" height="170"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="414" id="3bm-v4-j0d"/>
@@ -29,7 +59,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="wkY-Lr-ax4"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealCell" id="NkK-JL-LPT" customClass="MealCell" customModule="Wasted" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CalenderCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalenderCell" id="NkK-JL-LPT" customClass="CalendarCell" customModule="Wasted" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NkK-JL-LPT" id="Gdm-xx-FeY">
@@ -61,6 +91,10 @@
                                                         <constraint firstItem="IYN-IK-4QK" firstAttribute="centerY" secondItem="Gdm-xx-FeY" secondAttribute="centerY" id="tqH-Yi-X0U"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="ImageView" destination="aq5-H4-86N" id="dbJ-kI-8rs"/>
+                                                    <outlet property="mealLabel" destination="IYN-IK-4QK" id="1ms-4i-OHI"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
@@ -83,19 +117,88 @@
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="AxS-lW-xIO"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="day" translatesAutoresizingMaskIntoConstraints="NO" id="oSs-rU-Ipi">
+                                <rect key="frame" x="303" y="87" width="68" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tL7-vA-Xbq" firstAttribute="leading" secondItem="lgz-8n-icx" secondAttribute="trailing" constant="43" id="3Jt-c2-nWJ"/>
+                            <constraint firstItem="Jp5-ff-1DE" firstAttribute="top" secondItem="lgz-8n-icx" secondAttribute="bottom" constant="45" id="G4P-oy-Jtn"/>
+                            <constraint firstItem="lgz-8n-icx" firstAttribute="leading" secondItem="2rg-oZ-tEE" secondAttribute="leading" constant="102" id="KxN-E9-196"/>
+                            <constraint firstItem="lgz-8n-icx" firstAttribute="top" secondItem="D8S-qA-3eZ" secondAttribute="top" id="wzg-KG-kIU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2rg-oZ-tEE"/>
                     </view>
                     <navigationItem key="navigationItem" id="v4a-19-Nl9"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="view" destination="1bv-VS-GCJ" id="Q1O-IB-OMs"/>
+                        <outlet property="tableView2" destination="WSa-D6-jlu" id="i0d-Ml-9Hl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7n-F7-7lU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1507.2463768115942" y="-538.39285714285711"/>
+        </scene>
+        <!--DailyViewController-->
+        <scene sceneID="vIp-cb-V13">
+            <objects>
+                <viewController id="Ol2-YZ-X3K" userLabel="DailyViewController" customClass="DailyViewController" customModule="Wasted" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HK5-0a-BrF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-qT-vDH">
+                                <rect key="frame" x="-2" y="9" width="414" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r10-jC-Vtm">
+                                <rect key="frame" x="213" y="88" width="201" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.82352941180000006" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="            Day">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dEk-PB-Pid">
+                                <rect key="frame" x="-2" y="88" width="213" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="           Month">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="I89-st-KZE" kind="show" animates="NO" id="YCn-bf-7xk"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="week" translatesAutoresizingMaskIntoConstraints="NO" id="wmn-SL-Nkk">
+                                <rect key="frame" x="102" y="87" width="68" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="day" translatesAutoresizingMaskIntoConstraints="NO" id="A4q-s3-eAY">
+                                <rect key="frame" x="303" y="87" width="68" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="diX-zf-7L2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="A65-p0-fBh" firstAttribute="bottom" secondItem="A4q-s3-eAY" secondAttribute="bottom" constant="681" id="P5O-oE-feM"/>
+                            <constraint firstItem="A4q-s3-eAY" firstAttribute="top" secondItem="r10-jC-Vtm" secondAttribute="top" id="Yk2-vd-Z6b"/>
+                            <constraint firstItem="A65-p0-fBh" firstAttribute="trailing" secondItem="A4q-s3-eAY" secondAttribute="trailing" constant="41" id="nbq-m2-LQv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="A65-p0-fBh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tB7-ev-lca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-597.10144927536237" y="-538.39285714285711"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="u6J-H4-GZV">
@@ -126,5 +229,10 @@
     </scenes>
     <resources>
         <image name="calendar" width="50" height="50"/>
+        <image name="day" width="80" height="80"/>
+        <image name="week" width="80" height="80"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YCn-bf-7xk"/>
+    </inferredMetricsTieBreakers>
 </document>

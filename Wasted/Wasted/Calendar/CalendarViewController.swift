@@ -9,17 +9,17 @@
 import UIKit
 import FSCalendar
 
-class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate, UIGestureRecognizerDelegate, UITableViewDelegate {
+class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate, UIGestureRecognizerDelegate {
     var mealImage: MealC!
     var meals: [MealC] = []
-    @IBOutlet var viewThing: UIView!
+  //  @IBOutlet var viewThing: UIView!
     
-    @IBOutlet weak var calenderView: FSCalendar!
-    @IBOutlet weak var tableView1: UITableView!
+   // @IBOutlet weak var calenderView: FSCalendar!
+    //@IBOutlet weak var tableView1: UITableView! //Calendar View
     @IBOutlet weak var tableView2: UITableView!
-    @IBOutlet weak var animationSwitch: UISwitch!
-    @IBOutlet weak var image: UIImageView!
-    @IBOutlet weak var TitleLabel: UILabel!
+    //@IBOutlet weak var animationSwitch: UISwitch!
+    //@IBOutlet weak var image: UIImageView!
+    //@IBOutlet weak var TitleLabel: UILabel!
     
     fileprivate weak var calendar: FSCalendar!
     
@@ -42,24 +42,22 @@ class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendar
         
         self.calendar = calendar
         
-        image.image = mealImage.image
-        TitleLabel.text = mealImage.title
-        
-        meals = createArray()
-        tableView2.delegate = self
-        //tableView2.dataSource = self
-        
         // Do any additional setup after loading the view.
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationItem.hidesBackButton = true
+        meals = createArray()
+        tableView2.delegate = self
+        tableView2.dataSource = self
+        //image.image = mealImage.image
+        //TitleLabel.text = mealImage.title
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return [2,1][section]
-    }
+    //func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+      //  return [2,1][section]
+    //}
 
     /*
     // MARK: - Navigation
@@ -90,4 +88,25 @@ class CalendarViewController: UIViewController, FSCalendarDataSource, FSCalendar
         return tempMeals
     }
 
+}
+
+extension CalendarViewController: UITableViewDataSource, UITableViewDelegate{
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let meal = meals[indexPath.row]
+        let cell = tableView2.dequeueReusableCell(withIdentifier: "CalenderCell") as! CalendarCell
+        cell.set(meal: meal)
+        
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let meal = meals[indexPath.row]
+        performSegue(withIdentifier: "select", sender: meal)
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return meals.count
+    }
 }
