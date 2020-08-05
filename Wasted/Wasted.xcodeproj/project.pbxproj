@@ -13,6 +13,7 @@
 		72A068F22367225B00B0AF2F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A068F12367225B00B0AF2F /* Home.storyboard */; };
 		72A068F42367226D00B0AF2F /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A068F32367226D00B0AF2F /* Calendar.storyboard */; };
 		72A068F62367228000B0AF2F /* Services.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A068F52367228000B0AF2F /* Services.storyboard */; };
+		72BEABBE241A6C4400B3B95E /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BEABBD241A6C4400B3B95E /* ServicesViewController.swift */; };
 		72D49B3C23671EB000CCE33D /* grocery list.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D49B3B23671EB000CCE33D /* grocery list.storyboard */; };
 		72EED2D6240E9FAF00BFDC0C /* MealC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EED2D5240E9FAF00BFDC0C /* MealC.swift */; };
 		C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBE7D2327DDFE0057983C /* AppDelegate.swift */; };
@@ -29,7 +30,6 @@
 		C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */; };
 		C36CCB80236CCC320002A0B6 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */; };
 		C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */; };
-		C376D2AB23F5924A007510A7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376D2AA23F5924A007510A7 /* ServicesViewController.swift */; };
 		C38681FD23600B1500D58105 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38681FC23600B1500D58105 /* quizViewController.swift */; };
 		C3B35249240FEE730035252F /* ScoreBreakdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B35248240FEE730035252F /* ScoreBreakdownViewController.swift */; };
 		F309ED04EE7B71532EEF3747 /* Pods_WastedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5FCF6F5D5154888D63F210 /* Pods_WastedUITests.framework */; };
@@ -63,6 +63,7 @@
 		72A068F12367225B00B0AF2F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		72A068F32367226D00B0AF2F /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
 		72A068F52367228000B0AF2F /* Services.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Services.storyboard; sourceTree = "<group>"; };
+		72BEABBD241A6C4400B3B95E /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		72D49B3B23671EB000CCE33D /* grocery list.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "grocery list.storyboard"; sourceTree = "<group>"; };
 		72EED2D5240E9FAF00BFDC0C /* MealC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealC.swift; sourceTree = "<group>"; };
 		A998332B005002D5776D3175 /* Pods_WastedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WastedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +88,6 @@
 		C36CCB7D236CCA440002A0B6 /* GroceryListSelectorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListSelectorTable.swift; sourceTree = "<group>"; };
 		C36CCB7F236CCC320002A0B6 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		C36CCB81236CCF6E0002A0B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		C376D2AA23F5924A007510A7 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesViewController.swift; path = "/Users/drewscheffer/Desktop/GitHub/Nickless-App/Wasted/Wasted/ServicesViewController.swift"; sourceTree = "<absolute>"; };
 		C38681FC23600B1500D58105 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
 		C3B35248240FEE730035252F /* ScoreBreakdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBreakdownViewController.swift; sourceTree = "<group>"; };
 		D7B76975A3921AB65BB73BAA /* Pods-WastedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WastedTests.release.xcconfig"; path = "Target Support Files/Pods-WastedTests/Pods-WastedTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				C32CBE7D2327DDFE0057983C /* AppDelegate.swift */,
 				C32CBE7F2327DDFE0057983C /* ViewController.swift */,
 				C38681FC23600B1500D58105 /* quizViewController.swift */,
-				C376D2AA23F5924A007510A7 /* ServicesViewController.swift */,
+				72BEABBD241A6C4400B3B95E /* ServicesViewController.swift */,
 				C32CBE812327DDFE0057983C /* Main.storyboard */,
 				72A068F52367228000B0AF2F /* Services.storyboard */,
 				C375C9F8236CF361001A330D /* Calendar */,
@@ -458,12 +458,12 @@
 				C34D80A22367B34100672D18 /* MealCell.swift in Sources */,
 				C32CBE802327DDFE0057983C /* ViewController.swift in Sources */,
 				C36CCB82236CCF6E0002A0B6 /* ItemCell.swift in Sources */,
+				72BEABBE241A6C4400B3B95E /* ServicesViewController.swift in Sources */,
 				C32CBE7E2327DDFE0057983C /* AppDelegate.swift in Sources */,
 				72EED2D6240E9FAF00BFDC0C /* MealC.swift in Sources */,
 				C3B35249240FEE730035252F /* ScoreBreakdownViewController.swift in Sources */,
 				C34C0DC02368D8F3005A987B /* MealViewController.swift in Sources */,
 				C34D80A02367AD1B00672D18 /* MealSelectorTable.swift in Sources */,
-				C376D2AB23F5924A007510A7 /* ServicesViewController.swift in Sources */,
 				C36CCB7E236CCA440002A0B6 /* GroceryListSelectorTable.swift in Sources */,
 				C34D80A42367B54900672D18 /* Meal.swift in Sources */,
 				725FE79C2368E2DC00E6D607 /* CalendarViewController.swift in Sources */,
